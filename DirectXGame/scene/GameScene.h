@@ -45,5 +45,10 @@ private: // メンバ変数
 	/// ゲームシーン用
 	/// </summary>
 
-	Player* player = nullptr;
+	Player* player_ = nullptr;
+	Model* modelPlayer_ = nullptr;
+	uint32_t texturePlayer_;
+
+	//カメラ
+	Camera* camera_ = nullptr;
 };

@@ -9,27 +9,27 @@ public:
 	~Player();
 
 	/// <summary>
-	/// ‰Šú‰»
+	/// åˆæœŸåŒ–
 	/// </summary>
-	void Initialize(Model* model, Camera* camera);
+	void Initialize(Model* model, Camera* camera,uint32_t texture);
 
 	/// <summary>
-	/// –ˆƒtƒŒ[ƒ€ˆ—
+	/// æ¯ãƒ•ãƒ¬ãƒ¼ãƒ å‡¦ç†
 	/// </summary>
 	void Update();
 
 	/// <summary>
-	/// •`‰æ
+	/// æç”»
 	/// </summary>
 	void Draw();
 
-private: // ƒƒ“ƒo•Ï”
+private: // ãƒ¡ãƒ³ãƒå¤‰æ•°
 
 	Input* input_ = nullptr;
 
 	WorldTransform worldTransform_;
 	Model* model_ = nullptr;
 	Camera* camera_ = nullptr;
-
+	uint32_t texture_;
 };
 

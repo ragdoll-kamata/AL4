@@ -1,3 +1,4 @@
-﻿  main.cpp
+﻿  Player.cpp
+  main.cpp
   GameScene.cpp
   DirectXGame.vcxproj -> C:\Users\akito\Desktop\AL4\Generated\Outputs\Debug\DirectXGame.exe
