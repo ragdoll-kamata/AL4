@@ -8,8 +8,7 @@ Player::~Player()
 {
 }
 
-void Player::Initialize(Model* model, Camera* camera, uint32_t texture)
-{
+void Player::Initialize(Model* model, Camera* camera, uint32_t texture) {
 	model_ = model;
 	camera_ = camera;
 	texture_ = texture;
@@ -22,6 +21,6 @@ void Player::Update()
 }
 
 void Player::Draw()
-{
+{ 
 	model_->Draw(worldTransform_, *camera_, texture_);
 }

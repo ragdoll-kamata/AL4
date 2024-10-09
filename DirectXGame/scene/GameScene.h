@@ -47,7 +47,7 @@ private: // メンバ変数
 
 	Player* player_ = nullptr;
 	Model* modelPlayer_ = nullptr;
-	uint32_t texturePlayer_;
+	uint32_t tex = 0;
 
 	//カメラ
 	Camera* camera_ = nullptr;

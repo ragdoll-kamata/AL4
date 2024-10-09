@@ -17,11 +17,11 @@ void GameScene::Initialize() {
 	camera_->Initialize();
 
 	modelPlayer_ = Model::Create();
-	texturePlayer_ = TextureManager::Load("mario.jpg");
 
+	tex = TextureManager::Load("mario.jpg");
 
 	player_ = new Player();
-	player_->Initialize(modelPlayer_, camera_, texturePlayer_);
+	player_->Initialize(modelPlayer_, camera_, tex);
 
 }
 

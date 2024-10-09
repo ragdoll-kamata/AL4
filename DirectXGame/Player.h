@@ -11,7 +11,7 @@ public:
 	/// <summary>
 	/// 初期化
 	/// </summary>
-	void Initialize(Model* model, Camera* camera,uint32_t texture);
+	void Initialize(Model* model, Camera* camera, uint32_t texture);
 
 	/// <summary>
 	/// 毎フレーム処理
@@ -29,7 +29,8 @@ private: // メンバ変数
 
 	WorldTransform worldTransform_;
 	Model* model_ = nullptr;
+	uint32_t texture_ = 0;
 	Camera* camera_ = nullptr;
-	uint32_t texture_;
+
 };
 
