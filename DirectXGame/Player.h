@@ -31,6 +31,6 @@ private: // メンバ変数
 	Model* model_ = nullptr;
 	uint32_t texture_ = 0;
 	Camera* camera_ = nullptr;
-
+	static inline const float kMoveSpeed = 0.5f;
 };
 
