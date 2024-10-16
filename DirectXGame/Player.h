@@ -1,6 +1,6 @@
 #pragma once
 #include <KamataEngine.h>
-
+#include "PlayerBullet.h"
 using namespace KamataEngine;
 class Player {
 public:
@@ -18,6 +18,8 @@ public:
 	/// </summary>
 	void Update();
 
+	void Rotate();
+
 	/// <summary>
 	/// 描画
 	/// </summary>
@@ -32,5 +34,6 @@ private: // メンバ変数
 	uint32_t texture_ = 0;
 	Camera* camera_ = nullptr;
 	static inline const float kMoveSpeed = 0.5f;
+	std::list<std::shared_ptr<PlayerBullet>> bullets;
 };
 

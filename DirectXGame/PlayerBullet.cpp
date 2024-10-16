@@ -1,0 +1,29 @@
+#include "PlayerBullet.h"
+using namespace MathUtility;
+PlayerBullet::PlayerBullet() {}
+
+PlayerBullet::~PlayerBullet() {}
+
+void PlayerBullet::Initialize(Model* model, Camera* camera, uint32_t texture, Vector3 pos, Vector3 direction) {
+	input_ = Input::GetInstance();
+	model_ = model;
+	camera_ = camera;
+	texture_ = texture;
+	worldTransform_.Initialize();
+	worldTransform_.translation_ = pos;
+	direction_ = direction;
+	deleteTemer = kDeleteTemer;
+}
+
+void PlayerBullet::Update() {
+	deleteTemer--;
+	worldTransform_.translation_ += direction_ * kMoveSpeed;
+	if (deleteTemer < 0) {
+		isDelete = true;
+	}
+	worldTransform_.UpdateMatrix();
+}
+
+void PlayerBullet::Draw() {
+	model_->Draw(worldTransform_, *camera_, texture_);
+}
