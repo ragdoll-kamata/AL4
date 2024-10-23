@@ -95,27 +95,27 @@ void GameScene::CheckAllCollisions() {
 	std::list<std::shared_ptr<EnemyBullet>> eneyBullets = enemy_->GetBullets();
 
 	// 自機弾と敵弾
-	for (std::shared_ptr<PlayerBullet> a : playerBullets) {
-		for (std::shared_ptr<EnemyBullet> b : eneyBullets) {
-			if (CollisionDetection(a->GetSphere(), b->GetSphere())) {
-				a->OnCollision();
-				b->OnCollision();
+	for (std::shared_ptr<PlayerBullet> playerBullet : playerBullets) {
+		for (std::shared_ptr<EnemyBullet> eneyBullet : eneyBullets) {
+			if (CollisionDetection(playerBullet->GetSphere(), eneyBullet->GetSphere())) {
+				playerBullet->OnCollision();
+				eneyBullet->OnCollision();
 			}
 		}
 	}
 
 	// 敵と自機弾
-	for (std::shared_ptr<PlayerBullet> a : playerBullets) {
-		if (CollisionDetection(a->GetSphere(),enemy_->GetSphere())) {
-			a->OnCollision();
+	for (std::shared_ptr<PlayerBullet> playerBullet : playerBullets) {
+		if (CollisionDetection(playerBullet->GetSphere(), enemy_->GetSphere())) {
+			playerBullet->OnCollision();
 			enemy_->OnCollision();
 		}
 	}
 
 	// 自機と敵弾
-	for (std::shared_ptr<EnemyBullet> a : eneyBullets) {
-		if (CollisionDetection(a->GetSphere(), player_->GetSphere())) {
-			a->OnCollision();
+	for (std::shared_ptr<EnemyBullet> eneyBullet : eneyBullets) {
+		if (CollisionDetection(eneyBullet->GetSphere(), player_->GetSphere())) {
+			eneyBullet->OnCollision();
 			player_->OnCollision();
 		}
 	}
