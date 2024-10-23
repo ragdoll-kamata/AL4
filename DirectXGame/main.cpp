@@ -92,6 +92,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		dxCommon->PostDraw();
 	}
 
+	delete gameScene;
+
 	// 3Dモデル解放
 	Model::StaticFinalize();
 	audio->Finalize();

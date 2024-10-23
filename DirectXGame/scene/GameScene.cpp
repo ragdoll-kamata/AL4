@@ -1,9 +1,15 @@
 #include "GameScene.h"
 #include <cassert>
+#include "Sphere.h"
 
 GameScene::GameScene() {}
 
-GameScene::~GameScene() {}
+GameScene::~GameScene() {
+	delete enemy_;
+	delete player_;
+	delete modelPlayer_;
+	delete camera_;
+}
 
 void GameScene::Initialize() {
 
@@ -23,10 +29,16 @@ void GameScene::Initialize() {
 	player_ = new Player();
 	player_->Initialize(modelPlayer_, camera_, tex);
 
+	enemy_ = new Enemy();
+	enemy_->Initialize(modelPlayer_, camera_, tex);
+	enemy_->SetPlayer(player_);
+
 }
 
 void GameScene::Update() {
 	player_->Update();
+	enemy_->Update();
+	CheckAllCollisions();
 }
 
 void GameScene::Draw() {
@@ -55,7 +67,10 @@ void GameScene::Draw() {
 	/// <summary>
 	/// ここに3Dオブジェクトの描画処理を追加できる
 	/// </summary>
+
 	player_->Draw();
+	enemy_->Draw();
+
 	// 3Dオブジェクト描画後処理
 	Model::PostDraw();
 #pragma endregion
@@ -72,4 +87,37 @@ void GameScene::Draw() {
 	Sprite::PostDraw();
 
 #pragma endregion
+}
+
+void GameScene::CheckAllCollisions() {
+
+	std::list<std::shared_ptr<PlayerBullet>> playerBullets = player_->GetBullets();
+	std::list<std::shared_ptr<EnemyBullet>> eneyBullets = enemy_->GetBullets();
+
+	// 自機弾と敵弾
+	for (std::shared_ptr<PlayerBullet> a : playerBullets) {
+		for (std::shared_ptr<EnemyBullet> b : eneyBullets) {
+			if (CollisionDetection(a->GetSphere(), b->GetSphere())) {
+				a->OnCollision();
+				b->OnCollision();
+			}
+		}
+	}
+
+	// 敵と自機弾
+	for (std::shared_ptr<PlayerBullet> a : playerBullets) {
+		if (CollisionDetection(a->GetSphere(),enemy_->GetSphere())) {
+			a->OnCollision();
+			enemy_->OnCollision();
+		}
+	}
+
+	// 自機と敵弾
+	for (std::shared_ptr<EnemyBullet> a : eneyBullets) {
+		if (CollisionDetection(a->GetSphere(), player_->GetSphere())) {
+			a->OnCollision();
+			player_->OnCollision();
+		}
+	}
+
 }

@@ -25,5 +25,21 @@ void PlayerBullet::Update() {
 }
 
 void PlayerBullet::Draw() {
-	model_->Draw(worldTransform_, *camera_, texture_);
+	model_->Draw(worldTransform_, *camera_, texture_); }
+
+void PlayerBullet::OnCollision() { isDelete = true; }
+
+Vector3 PlayerBullet::GetWorldPos() {
+	return Vector3(
+		worldTransform_.matWorld_.m[3][0],
+		worldTransform_.matWorld_.m[3][1],
+		worldTransform_.matWorld_.m[3][2]
+	);
+}
+
+Sphere PlayerBullet::GetSphere() {
+	return Sphere(
+		GetWorldPos(),
+		kRadius
+	);
 }

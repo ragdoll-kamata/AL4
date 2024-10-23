@@ -1,5 +1,6 @@
 #pragma once
 #include <KamataEngine.h>
+#include "Sphere.h"
 #include "PlayerBullet.h"
 using namespace KamataEngine;
 class Player {
@@ -25,6 +26,13 @@ public:
 	/// </summary>
 	void Draw();
 
+	void OnCollision();
+
+	Vector3 GetWorldPos();
+	Sphere GetSphere();
+
+	std::list<std::shared_ptr<PlayerBullet>> GetBullets() { return bullets; }
+
 private: // メンバ変数
 
 	Input* input_ = nullptr;
@@ -35,5 +43,7 @@ private: // メンバ変数
 	Camera* camera_ = nullptr;
 	static inline const float kMoveSpeed = 0.5f;
 	std::list<std::shared_ptr<PlayerBullet>> bullets;
+
+	static inline const float kRadius = 1.0f;
 };
 

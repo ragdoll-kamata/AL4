@@ -2,6 +2,7 @@
 
 #include <KamataEngine.h>
 #include "Player.h"
+#include "Enemy.h"
 
 using namespace KamataEngine;
 
@@ -36,6 +37,8 @@ public: // メンバ関数
 	/// </summary>
 	void Draw();
 
+	void CheckAllCollisions();
+
 private: // メンバ変数
 	DirectXCommon* dxCommon_ = nullptr;
 	Input* input_ = nullptr;
@@ -48,6 +51,8 @@ private: // メンバ変数
 	Player* player_ = nullptr;
 	Model* modelPlayer_ = nullptr;
 	uint32_t tex = 0;
+
+	Enemy* enemy_ = nullptr;
 
 	//カメラ
 	Camera* camera_ = nullptr;

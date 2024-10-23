@@ -1,6 +1,6 @@
 #pragma once
 #include <KamataEngine.h>
-
+#include "Sphere.h"
 using namespace KamataEngine;
 class PlayerBullet {
 public:
@@ -23,6 +23,11 @@ public:
 	/// </summary>
 	void Draw();
 
+	void OnCollision();
+	
+	Vector3 GetWorldPos();
+	Sphere GetSphere();
+
 	bool IsDelete() { return isDelete; }
 
 
@@ -38,4 +43,6 @@ private: // メンバ変数
 	bool isDelete = false;
 	static inline const int kDeleteTemer = 60;
 	int deleteTemer = 60;
+
+	static inline const float kRadius = 1.0f;
 };

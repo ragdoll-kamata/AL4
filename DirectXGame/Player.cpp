@@ -4,8 +4,8 @@ Player::Player()
 {
 }
 
-Player::~Player()
-{
+Player::~Player() {
+	bullets.clear();
 }
 
 void Player::Initialize(Model* model, Camera* camera, uint32_t texture) {
@@ -67,4 +67,21 @@ void Player::Draw()
 	for (std::shared_ptr<PlayerBullet> bullet : bullets) {
 		bullet->Draw();
 	}
+}
+
+void Player::OnCollision() {}
+
+Vector3 Player::GetWorldPos() { 
+	return Vector3(
+		worldTransform_.matWorld_.m[3][0],
+		worldTransform_.matWorld_.m[3][1],
+		worldTransform_.matWorld_.m[3][2]
+	);
+}
+
+Sphere Player::GetSphere() {
+	return Sphere(
+		GetWorldPos(),
+		kRadius
+	);
 }
