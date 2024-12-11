@@ -1,5 +1,7 @@
 #include "Enemy.h"
 #include "Player.h"
+#include <map>
+#include <functional>
 
 using namespace MathUtility;
 
@@ -14,25 +16,24 @@ void Enemy::Initialize(Model* model, Camera* camera, uint32_t texture) {
 	camera_ = camera;
 	texture_ = texture;
 	worldTransform_.Initialize();
-	direction = {0.0f, 0.0f, -1.0f};
+
+	approachMoveDirection = {0.0f, 0.0f, -1.0f};
+	approachMoveDirection = Normalize(approachMoveDirection);
+
+	leaveMoveDirection = {0.0f, 1.0f, 0.0f};
+	leaveMoveDirection = Normalize(leaveMoveDirection);
+
 	worldTransform_.translation_ = {10.0f, 0.0f, 100.0f};
 }
 
 void Enemy::Update() {
-	direction = Normalize(direction);
+	std::map<Phase, std::function<void()>> phaseMap{
+	    {Phase::Approach, [this]() { Approach(); }},
+	    {Phase::Leave,    [this]() { Leave(); }   },
+	};
 
-	bulltShotTimer--;
+	phaseMap[phase]();
 
-	worldTransform_.translation_ += direction * kMoveSpeed;
-	if (bulltShotTimer <= 0) {
-		std::shared_ptr<EnemyBullet> a(new EnemyBullet);
-		Vector3 targetDirection = player_->GetWorldPos() - GetWorldPos();
-		a->Initialize(model_, camera_, texture_, worldTransform_.translation_, Normalize(targetDirection));
-		bullets.push_back(a);
-		bulltShotTimer = kBulltShotTimer;
-	}
-	
-	
 	for (std::shared_ptr<EnemyBullet> bullet : bullets) {
 		bullet->Update();
 	}
@@ -62,4 +63,26 @@ Sphere Enemy::GetSphere() {
 		GetWorldPos(),
 		kRadius
 	); 
+}
+
+void Enemy::Approach() {
+
+	bulltShotTimer--;
+
+	worldTransform_.translation_ += approachMoveDirection * kMoveSpeed;
+	if (bulltShotTimer <= 0) {
+		std::shared_ptr<EnemyBullet> a(new EnemyBullet);
+		Vector3 targetDirection = player_->GetWorldPos() - GetWorldPos();
+		a->Initialize(model_, camera_, texture_, worldTransform_.translation_, Normalize(targetDirection));
+		bullets.push_back(a);
+		bulltShotTimer = kBulltShotTimer;
+	}
+
+	if (worldTransform_.translation_.z <= -1.0f) {
+		phase = Phase::Leave;
+	}
+}
+
+void Enemy::Leave() { 
+	worldTransform_.translation_ += leaveMoveDirection * kMoveSpeed;
 }

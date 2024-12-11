@@ -33,6 +33,8 @@ public:
 
 	std::list<std::shared_ptr<PlayerBullet>> GetBullets() { return bullets; }
 
+	void SetParent(const WorldTransform* parent) { worldTransform_.parent_ = parent; }
+
 private: // メンバ変数
 
 	Input* input_ = nullptr;

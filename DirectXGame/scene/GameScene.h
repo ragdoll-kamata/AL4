@@ -3,6 +3,7 @@
 #include <KamataEngine.h>
 #include "Player.h"
 #include "Enemy.h"
+#include "Skydome.h"
 
 using namespace KamataEngine;
 
@@ -53,6 +54,10 @@ private: // メンバ変数
 	uint32_t tex = 0;
 
 	Enemy* enemy_ = nullptr;
+
+	//
+	Skydome* skydome_ = nullptr;
+	Model* modelSkydome_ = nullptr;
 
 	//カメラ
 	Camera* camera_ = nullptr;

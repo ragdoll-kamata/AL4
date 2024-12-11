@@ -9,6 +9,8 @@ GameScene::~GameScene() {
 	delete player_;
 	delete modelPlayer_;
 	delete camera_;
+	delete skydome_;
+	delete modelSkydome_;
 }
 
 void GameScene::Initialize() {
@@ -26,6 +28,11 @@ void GameScene::Initialize() {
 
 	tex = TextureManager::Load("mario.jpg");
 
+	modelSkydome_ = Model::CreateFromOBJ("skydome");
+
+	skydome_ = new Skydome;
+	skydome_->Initialize(modelSkydome_, camera_);
+
 	player_ = new Player();
 	player_->Initialize(modelPlayer_, camera_, tex);
 
@@ -36,6 +43,7 @@ void GameScene::Initialize() {
 }
 
 void GameScene::Update() {
+	skydome_->Update();
 	player_->Update();
 	enemy_->Update();
 	CheckAllCollisions();
@@ -68,6 +76,7 @@ void GameScene::Draw() {
 	/// ここに3Dオブジェクトの描画処理を追加できる
 	/// </summary>
 
+	skydome_->Draw();
 	player_->Draw();
 	enemy_->Draw();
 
