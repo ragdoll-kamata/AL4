@@ -44,7 +44,11 @@ public:
 
 	void SetPlayer(Player* player) { player_ = player; }
 
+	bool GetIsDeath() const { return isDeath; }
+	bool GetIsEscape() const { return isEscape; }
+
 private:
+	
 	void Approach();
 
 	void Leave();
@@ -67,5 +71,6 @@ private: // メンバ変数
 
 	Phase phase = Phase::Approach;
 
-
+	bool isDeath = false;
+	bool isEscape = false;
 };

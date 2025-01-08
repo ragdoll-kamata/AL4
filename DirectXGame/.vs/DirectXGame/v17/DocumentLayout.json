@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,65 +23,120 @@
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:EnemyBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\TtleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\TtleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:PlayerBullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\TtleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\TtleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\OverScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:OverScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\OverScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:OverScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\ClearScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:ClearScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\ClearScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:ClearScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\akito\\Desktop\\TD2\\TD2_2\\DirectXGame\\scene\\Clear.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\akito\\Desktop\\TD2\\TD2_2\\DirectXGame\\scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:PlayerBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\3d\\WorldTransformEx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\SceneName.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:SceneName.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\SceneFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\SceneFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:PlayerBullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\akito\\Desktop\\AL4\\External\\imgui\\imgui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Sphere.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:PlayerBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:EnemyBullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:EnemyBullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\2d\\ImGuiManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\KamataEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,86 +146,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerBullet.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.h",
-              "RelativeDocumentMoniker": "PlayerBullet.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.h",
-              "RelativeToolTip": "PlayerBullet.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T03:03:05.482Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.h",
-              "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.h",
-              "RelativeToolTip": "Player.h",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-02T04:47:08.116Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameScene.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.h",
-              "RelativeDocumentMoniker": "scene\\GameScene.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.h",
-              "RelativeToolTip": "scene\\GameScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-02T04:47:12.659Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.h",
-              "RelativeDocumentMoniker": "Enemy.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.h*",
-              "RelativeToolTip": "Enemy.h*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAjwEUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T01:23:00.435Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EnemyBullet.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.h",
-              "RelativeDocumentMoniker": "EnemyBullet.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.h",
-              "RelativeToolTip": "EnemyBullet.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T01:54:36.319Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Sphere.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.h",
-              "RelativeDocumentMoniker": "Sphere.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.h",
-              "RelativeToolTip": "Sphere.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T01:47:37.829Z",
+              "DocumentIndex": 14,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-02T04:47:05.27Z",
               "IsPinned": true
             },
             {
@@ -175,7 +175,238 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TtleScene.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\TtleScene.cpp",
+              "RelativeDocumentMoniker": "scene\\TtleScene.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\TtleScene.cpp",
+              "RelativeToolTip": "scene\\TtleScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T03:11:29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OverScene.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\OverScene.h",
+              "RelativeDocumentMoniker": "OverScene.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\OverScene.h",
+              "RelativeToolTip": "OverScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T07:10:02.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OverScene.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\OverScene.cpp",
+              "RelativeDocumentMoniker": "OverScene.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\OverScene.cpp",
+              "RelativeToolTip": "OverScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T07:14:11.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClearScene.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\ClearScene.cpp",
+              "RelativeDocumentMoniker": "ClearScene.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\ClearScene.cpp",
+              "RelativeToolTip": "ClearScene.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T07:13:43.503Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ClearScene.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\ClearScene.h",
+              "RelativeDocumentMoniker": "ClearScene.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\ClearScene.h",
+              "RelativeToolTip": "ClearScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T07:09:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ImGuiManager.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\2d\\ImGuiManager.h",
+              "RelativeDocumentMoniker": "..\\External\\KamataEngine\\include\\2d\\ImGuiManager.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\2d\\ImGuiManager.h",
+              "RelativeToolTip": "..\\External\\KamataEngine\\include\\2d\\ImGuiManager.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T04:38:47.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "KamataEngine.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\KamataEngine.h",
+              "RelativeDocumentMoniker": "..\\External\\KamataEngine\\include\\KamataEngine.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\KamataEngine.h",
+              "RelativeToolTip": "..\\External\\KamataEngine\\include\\KamataEngine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T04:33:23.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SceneName.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\SceneName.h",
+              "RelativeDocumentMoniker": "SceneName.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\SceneName.h",
+              "RelativeToolTip": "SceneName.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T03:40:58.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SceneManager.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneManager.h",
+              "RelativeDocumentMoniker": "scene\\SceneManager.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneManager.h",
+              "RelativeToolTip": "scene\\SceneManager.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T03:37:23.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TtleScene.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\TtleScene.h",
+              "RelativeDocumentMoniker": "scene\\TtleScene.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\TtleScene.h",
+              "RelativeToolTip": "scene\\TtleScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T03:11:08.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SceneFactory.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneFactory.h",
+              "RelativeDocumentMoniker": "scene\\SceneFactory.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneFactory.h",
+              "RelativeToolTip": "scene\\SceneFactory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T02:39:36.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\Scene.h",
+              "RelativeDocumentMoniker": "scene\\Scene.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\Scene.h",
+              "RelativeToolTip": "scene\\Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T02:19:02.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-16T01:23:00.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EnemyBullet.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.h",
+              "RelativeDocumentMoniker": "EnemyBullet.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.h",
+              "RelativeToolTip": "EnemyBullet.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-16T01:54:36.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameScene.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.h",
+              "RelativeDocumentMoniker": "scene\\GameScene.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.h",
+              "RelativeToolTip": "scene\\GameScene.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-02T04:47:12.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-02T04:47:08.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlayerBullet.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.h",
+              "RelativeDocumentMoniker": "PlayerBullet.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.h",
+              "RelativeToolTip": "PlayerBullet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T03:03:05.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Skydome.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.h",
+              "RelativeDocumentMoniker": "Skydome.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.h",
+              "RelativeToolTip": "Skydome.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T02:51:59.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Sphere.h",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.h",
+              "RelativeDocumentMoniker": "Sphere.h",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.h",
+              "RelativeToolTip": "Sphere.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T01:47:37.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "Affine.h",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.h",
               "RelativeDocumentMoniker": "..\\External\\KamataEngine\\include\\math\\Affine.h",
@@ -184,139 +415,211 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-30T02:54:44.706Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "58cb0fa3-6a7d-4aba-9a75-9f10f19626b0",
+        "Display": 0,
+        "X": 351,
+        "Y": 133,
+        "Width": 1350,
+        "Height": 904,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Clear.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\TD2\\TD2_2\\DirectXGame\\scene\\Clear.cpp",
+              "RelativeDocumentMoniker": "..\\..\\TD2\\TD2_2\\DirectXGame\\scene\\Clear.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\TD2\\TD2_2\\DirectXGame\\scene\\Clear.cpp",
+              "RelativeToolTip": "..\\..\\TD2\\TD2_2\\DirectXGame\\scene\\Clear.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T07:32:52.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "GameScene.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\TD2\\TD2_2\\DirectXGame\\scene\\GameScene.cpp",
+              "RelativeDocumentMoniker": "..\\..\\TD2\\TD2_2\\DirectXGame\\scene\\GameScene.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\TD2\\TD2_2\\DirectXGame\\scene\\GameScene.cpp",
+              "RelativeToolTip": "..\\..\\TD2\\TD2_2\\DirectXGame\\scene\\GameScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T07:32:35.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "imgui.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\External\\imgui\\imgui.cpp",
+              "RelativeDocumentMoniker": "..\\External\\imgui\\imgui.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\External\\imgui\\imgui.cpp",
+              "RelativeToolTip": "..\\External\\imgui\\imgui.cpp",
+              "ViewState": "AgIAAEAKAAAAAAAAAAAYwFIKAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T04:37:54.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "scene\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneManager.cpp",
+              "RelativeToolTip": "scene\\SceneManager.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T03:41:58.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SceneFactory.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneFactory.cpp",
+              "RelativeDocumentMoniker": "scene\\SceneFactory.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\SceneFactory.cpp",
+              "RelativeToolTip": "scene\\SceneFactory.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T02:46:58.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\Scene.cpp",
+              "RelativeDocumentMoniker": "scene\\Scene.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\Scene.cpp",
+              "RelativeToolTip": "scene\\Scene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T02:34:52.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAEwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T01:23:13.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Affine.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.cpp",
               "RelativeDocumentMoniker": "..\\External\\KamataEngine\\include\\math\\Affine.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\math\\Affine.cpp",
               "RelativeToolTip": "..\\External\\KamataEngine\\include\\math\\Affine.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T02:54:15.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Skydome.h",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.h",
-              "RelativeDocumentMoniker": "Skydome.h",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.h",
-              "RelativeToolTip": "Skydome.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T02:51:59.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "Skydome.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.cpp",
               "RelativeDocumentMoniker": "Skydome.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Skydome.cpp",
               "RelativeToolTip": "Skydome.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAUAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T02:51:53.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Sphere.cpp",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.cpp",
-              "RelativeDocumentMoniker": "Sphere.cpp",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.cpp",
-              "RelativeToolTip": "Sphere.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T01:50:40.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "WorldTransformEx.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\3d\\WorldTransformEx.cpp",
               "RelativeDocumentMoniker": "..\\External\\KamataEngine\\include\\3d\\WorldTransformEx.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\External\\KamataEngine\\include\\3d\\WorldTransformEx.cpp",
               "RelativeToolTip": "..\\External\\KamataEngine\\include\\3d\\WorldTransformEx.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAPAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-23T01:45:37.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 30,
               "Title": "EnemyBullet.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.cpp",
               "RelativeDocumentMoniker": "EnemyBullet.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\EnemyBullet.cpp",
               "RelativeToolTip": "EnemyBullet.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAyAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T01:54:40.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.cpp",
-              "RelativeDocumentMoniker": "Enemy.cpp",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Enemy.cpp*",
-              "RelativeToolTip": "Enemy.cpp*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-16T01:23:13.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "PlayerBullet.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.cpp",
               "RelativeDocumentMoniker": "PlayerBullet.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\PlayerBullet.cpp",
               "RelativeToolTip": "PlayerBullet.cpp",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAowB0AAAA0AAAA",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-09T03:07:57.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Player.cpp",
               "RelativeToolTip": "Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-02T04:47:01.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "GameScene.cpp",
               "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.cpp",
               "RelativeDocumentMoniker": "scene\\GameScene.cpp",
               "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\scene\\GameScene.cpp",
               "RelativeToolTip": "scene\\GameScene.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T02:27:57.09Z"
+              "WhenOpened": "2024-10-09T02:27:57.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF4AAAASAAAA",
+              "DocumentIndex": 29,
+              "Title": "Sphere.cpp",
+              "DocumentMoniker": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.cpp",
+              "RelativeDocumentMoniker": "Sphere.cpp",
+              "ToolTip": "C:\\Users\\akito\\Desktop\\AL4\\DirectXGame\\Sphere.cpp",
+              "RelativeToolTip": "Sphere.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T04:47:05.27Z"
+              "WhenOpened": "2024-10-23T01:50:40.377Z"
             }
           ]
         }

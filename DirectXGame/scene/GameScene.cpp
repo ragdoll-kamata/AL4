@@ -1,16 +1,11 @@
 #include "GameScene.h"
 #include <cassert>
 #include "Sphere.h"
+#include "SceneManager.h"
 
 GameScene::GameScene() {}
 
 GameScene::~GameScene() {
-	delete enemy_;
-	delete player_;
-	delete modelPlayer_;
-	delete camera_;
-	delete skydome_;
-	delete modelSkydome_;
 }
 
 void GameScene::Initialize() {
@@ -19,27 +14,30 @@ void GameScene::Initialize() {
 	input_ = Input::GetInstance();
 	audio_ = Audio::GetInstance();
 	//
+	
 
-
-	camera_ = new Camera();
+	camera_ = std::make_unique<Camera>();
 	camera_->Initialize();
 
-	modelPlayer_ = Model::Create();
+	std::unique_ptr<Model> a(Model::Create());
+	modelPlayer_ = std::move(a);
 
 	tex = TextureManager::Load("mario.jpg");
 
-	modelSkydome_ = Model::CreateFromOBJ("skydome");
+	std::unique_ptr<Model> b(Model::CreateFromOBJ("skydome"));
+	modelSkydome_ = std::move(b);
 
-	skydome_ = new Skydome;
-	skydome_->Initialize(modelSkydome_, camera_);
+	skydome_ = std::make_unique<Skydome>();
+	skydome_->Initialize(modelSkydome_.get(), camera_.get());
 
-	player_ = new Player();
-	player_->Initialize(modelPlayer_, camera_, tex);
+	player_ = std::make_unique<Player>();
+	player_->Initialize(modelPlayer_.get(), camera_.get(), tex);
 
-	enemy_ = new Enemy();
-	enemy_->Initialize(modelPlayer_, camera_, tex);
-	enemy_->SetPlayer(player_);
-
+	enemy_ = std::make_unique<Enemy>();
+	enemy_->Initialize(modelPlayer_.get(), camera_.get(), tex);
+	enemy_->SetPlayer(player_.get());
+	SH = audio_->LoadWave("GameBGM.mp3");
+	VH = audio_->PlayWave(SH, true, 0.5f);
 }
 
 void GameScene::Update() {
@@ -47,6 +45,18 @@ void GameScene::Update() {
 	player_->Update();
 	enemy_->Update();
 	CheckAllCollisions();
+	if (enemy_->GetIsDeath()) {
+		SceneManager::GetInstance()->SetNextScene(SceneName::ClearScene);
+		audio_->StopWave(VH);
+	}
+	if (enemy_->GetIsEscape()) {
+		SceneManager::GetInstance()->SetNextScene(SceneName::OverScene);
+		audio_->StopWave(VH);
+	}
+	if (player_->GetIsDeath()) {
+		SceneManager::GetInstance()->SetNextScene(SceneName::OverScene);
+		audio_->StopWave(VH);
+	}
 }
 
 void GameScene::Draw() {

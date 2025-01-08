@@ -4,13 +4,15 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Skydome.h"
+#include <memory>
+#include "Scene.h"
 
 using namespace KamataEngine;
 
 /// <summary>
 /// ゲームシーン
 /// </summary>
-class GameScene {
+class GameScene : public Scene {
 
 public: // メンバ関数
 	/// <summary>
@@ -26,17 +28,17 @@ public: // メンバ関数
 	/// <summary>
 	/// 初期化
 	/// </summary>
-	void Initialize();
+	void Initialize() override;
 
 	/// <summary>
 	/// 毎フレーム処理
 	/// </summary>
-	void Update();
+	void Update() override;
 
 	/// <summary>
 	/// 描画
 	/// </summary>
-	void Draw();
+	void Draw() override;
 
 	void CheckAllCollisions();
 
@@ -49,16 +51,19 @@ private: // メンバ変数
 	/// ゲームシーン用
 	/// </summary>
 
-	Player* player_ = nullptr;
-	Model* modelPlayer_ = nullptr;
+	std::unique_ptr<Player> player_ = nullptr;
+	std::unique_ptr <Model> modelPlayer_ = nullptr;
 	uint32_t tex = 0;
 
-	Enemy* enemy_ = nullptr;
+	std::unique_ptr <Enemy> enemy_ = nullptr;
 
 	//
-	Skydome* skydome_ = nullptr;
-	Model* modelSkydome_ = nullptr;
+	std::unique_ptr <Skydome> skydome_ = nullptr;
+	std::unique_ptr <Model> modelSkydome_ = nullptr;
 
 	//カメラ
-	Camera* camera_ = nullptr;
+	std::unique_ptr <Camera> camera_ = nullptr;
+
+	uint32_t SH = 0;
+	uint32_t VH = 0;
 };

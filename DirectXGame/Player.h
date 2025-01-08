@@ -35,7 +35,12 @@ public:
 
 	void SetParent(const WorldTransform* parent) { worldTransform_.parent_ = parent; }
 
+	bool GetIsDeath() const { return isDeath; }
+
 private: // メンバ変数
+	Audio* audio_ = nullptr;
+
+	uint32_t SH = 0;
 
 	Input* input_ = nullptr;
 
@@ -47,5 +52,7 @@ private: // メンバ変数
 	std::list<std::shared_ptr<PlayerBullet>> bullets;
 
 	static inline const float kRadius = 1.0f;
+
+	bool isDeath = false;
 };
 

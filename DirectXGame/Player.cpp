@@ -1,5 +1,7 @@
 #include "Player.h"
 using namespace MathUtility;
+#include <iostream>
+#include <algorithm>
 Player::Player()
 {
 }
@@ -10,10 +12,12 @@ Player::~Player() {
 
 void Player::Initialize(Model* model, Camera* camera, uint32_t texture) {
 	input_ = Input::GetInstance();
+	audio_ = Audio::GetInstance();
 	model_ = model;
 	camera_ = camera;
 	texture_ = texture;
 	worldTransform_.Initialize();
+	SH = audio_->LoadWave("se_gun_fire06.wav");
 }
 
 void Player::Update()
@@ -34,14 +38,22 @@ void Player::Update()
 	}
 	direction = Normalize(direction);
 
-	worldTransform_.translation_ += direction * kMoveSpeed;
 	
+	worldTransform_.translation_ += direction * kMoveSpeed;
+	worldTransform_.translation_.x = std::clamp<float>(worldTransform_.translation_.x, -34.0f, 34.0f);
+	worldTransform_.translation_.y = std::clamp<float>(worldTransform_.translation_.y, -19.0f, 19.0f);
+
+
+
 	Rotate();
+
+	
 
 	if (input_->TriggerKey(DIK_SPACE)) {
 		std::shared_ptr<PlayerBullet> a(new PlayerBullet);
 		a->Initialize(model_, camera_, texture_, worldTransform_.translation_, TransformNormal({0.0f, 0.0f, 1.0f}, worldTransform_.matWorld_));
 		bullets.push_back(a);
+		audio_->PlayWave(SH, false, 0.5f);
 	}
 	for (std::shared_ptr<PlayerBullet> bullet : bullets) {
 		bullet->Update();
@@ -69,7 +81,7 @@ void Player::Draw()
 	}
 }
 
-void Player::OnCollision() {}
+void Player::OnCollision() { isDeath = true; }
 
 Vector3 Player::GetWorldPos() { 
 	return Vector3(

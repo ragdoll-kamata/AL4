@@ -48,7 +48,7 @@ void Enemy::Draw() {
 	}
 }
 
-void Enemy::OnCollision() {}
+void Enemy::OnCollision() { isDeath = true; }
 
 Vector3 Enemy::GetWorldPos() {
 	return Vector3(
@@ -85,4 +85,7 @@ void Enemy::Approach() {
 
 void Enemy::Leave() { 
 	worldTransform_.translation_ += leaveMoveDirection * kMoveSpeed;
+	if (worldTransform_.translation_.y >= 30.0f) {
+		isEscape = true;
+	}
 }
